@@ -31,7 +31,7 @@
 <h1>CAP Privacy Policy</h1>
 
 <div class="meta">
-  <strong>Effective Date:</strong> September 9, 2026<br>
+  <strong>Effective Date:</strong> September 30, 2026<br>
   <strong>Application:</strong> CAP – Grocery Flyer Price Comparison<br>
   <strong>Operator:</strong> Slavomír Tarbaj, Slovakia<br>
   <strong>Contact:</strong> <a href="mailto:tarbaj.cap@gmail.com">tarbaj.cap@gmail.com</a>
@@ -56,6 +56,7 @@
 </ul>
 <p>Appodeal works with third-party advertising networks, including AppLovin, Unity Ads, ironSource, Vungle, Mintegral, BigoAds, InMobi, Amazon Ads, DT Exchange, and VK Ads. These networks may process the information listed above in order to deliver and measure advertising.</p>
 <p>For users located in the European Economic Area (EEA), the United Kingdom, and Switzerland, CAP displays a consent form (IAB TCF v2) before any advertising is loaded. Personalized advertising is shown only when consent has been granted. You can change or withdraw your consent at any time in the application under <strong>Settings &rarr; Ad consent</strong>.</p>
+<p>Your precise GPS location and your loyalty cards are never shared with advertising providers.</p>
 <p>Appodeal Privacy Policy: <a href="https://www.appodeal.com/privacy-policy/">https://www.appodeal.com/privacy-policy/</a></p>
 
 <h3>AI Assistant (Google Gemini)</h3>
@@ -68,22 +69,47 @@
 <p>Firebase may process a device identifier, IP address, device type, and application version. This information is used solely to keep the application stable and to deliver the notifications you have enabled. CAP does not use it to identify individual users.</p>
 <p>Firebase Privacy Policy: <a href="https://firebase.google.com/support/privacy">https://firebase.google.com/support/privacy</a></p>
 
+<h3>Price Alerts and New Flyer Notifications</h3>
+<p>If you use price alerts (watched products or categories) or notifications about new flyers, CAP stores the following on its server (Supabase) so that it can send you these notifications even when the application is closed:</p>
+<ul>
+  <li>Push notification token of your device (issued by Firebase Cloud Messaging)</li>
+  <li>Selected country</li>
+  <li>Watched products or categories and the stores you selected</li>
+</ul>
+<p>This information is not linked to your name, email address, or any account. It is used only to send the notifications you requested. You can stop the notifications at any time by removing your watched items or disabling notifications for CAP in your device settings. To request deletion of this data, contact us at the email address below.</p>
+
+<h3>Loyalty Cards</h3>
+<p>Loyalty cards you add to CAP (store name, card name, card number, and barcode format) are stored only on your device. They are not sent to CAP servers or to any third party.</p>
+<p>When you share a card with a family member, the card is transferred directly between devices using a QR code. No server is involved.</p>
+
+<h3>Camera and Photos</h3>
+<p>The camera is used only to scan the barcode of a loyalty card. Camera images are processed on your device and are not stored or uploaded.</p>
+<p>If you choose to load a card from a photo in your gallery, the barcode is read on your device. The photo is not uploaded anywhere.</p>
+<p>Camera and photo access are requested only when you use these features, and you can revoke them at any time in your device settings.</p>
+
+<h3>Location (optional)</h3>
+<p>If you turn on the optional in-store card reminder, CAP uses your device location to find stores near you and offer the matching loyalty card.</p>
+<p>To look up nearby stores, your coordinates are sent to the OpenStreetMap Overpass API (overpass-api.de). The coordinates are sent without any identifier, are processed only for that single request, and are not stored by CAP or sent to CAP servers.</p>
+<p>Location is used only while the feature is enabled. You can turn it off at any time in the application and revoke the location permission in your device settings.</p>
+<p>OpenStreetMap Foundation Privacy Policy: <a href="https://osmfoundation.org/wiki/Privacy_Policy">https://osmfoundation.org/wiki/Privacy_Policy</a></p>
+
 <h3>Backend Services (Supabase and Cloudflare)</h3>
 <p>CAP uses Supabase to deliver current product prices, flyer information, and application data.</p>
 <p>Flyer pages are delivered through Cloudflare R2 storage. Only the flyer images themselves are stored there; no personal data is stored or processed.</p>
 <p>Requests may include technical information necessary to provide the service, but CAP does not intentionally collect personal user information through these requests.</p>
 
 <h3>Local Storage</h3>
-<p>The application stores certain preferences locally on your device, including:</p>
+<p>The application stores certain data locally on your device, including:</p>
 <ul>
   <li>Selected language</li>
   <li>Selected country</li>
   <li>Favorite products</li>
   <li>Shopping lists</li>
   <li>Saved AI-generated recipes</li>
+  <li>Loyalty cards and their usage statistics</li>
 </ul>
 <p>This information remains on your device and is not transmitted to CAP servers.</p>
-<p>CAP does not store personal user data on its own servers. Local application data remains on the user's device until deleted by the user or by uninstalling the application.</p>
+<p>Apart from the notification data described above, CAP does not store user data on its own servers. Local application data remains on the user's device until deleted by the user or by uninstalling the application.</p>
 
 <h2>3. Information We Do Not Collect</h2>
 <p>CAP does not intentionally collect:</p>
@@ -91,11 +117,10 @@
   <li>Name</li>
   <li>Email address</li>
   <li>Phone number</li>
-  <li>Precise GPS location</li>
   <li>Contacts</li>
-  <li>Photos</li>
   <li>Files stored on your device</li>
 </ul>
+<p>CAP does not store your location history, your photos, or your loyalty card numbers on any server.</p>
 <p>CAP does not use custom analytics tools for user profiling.</p>
 
 <h2>4. Children's Privacy</h2>
