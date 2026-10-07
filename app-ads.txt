@@ -1,3 +1,6 @@
+# CAP - vlastne ucty (Unity Ads cez LevelPlay)
+unity.com, 7972629594552, DIRECT, 96cabb5fbdde37a7
+# Appodeal mediacia
 appodeal.com, 439860, DIRECT
 bidmachine.io,1,DIRECT
 bidmachine.io,466,DIRECT
@@ -9,7 +12,7 @@ bidmachine.io,466,DIRECT
 152media.info,152M698,RESELLER
 33across.com, 001Pg00000LoMyvIAF, RESELLER, bbea06d9c4d2853c
 33across.com,0010b00002dVKxbAAG,RESELLER,bbea06d9c4d2853c
-33across.com,0010b00002MptSLAAZ,RESELLER,bbea06d9c4d2853c
+33across.com,0010b00002MptSLAAZ,RESELLER,bbea06d9c4ad2853c
 33across.com,0010b00002Xbn7QAAR,RESELLER,bbea06d9c4d2853c
 33across.com,0015a00002egvRSAAY,RESELLER,bbea06d9c4d2853c
 33across.com,0015a00003DKg9ZAAT,RESELLER,bbea06d9c4d2853c
