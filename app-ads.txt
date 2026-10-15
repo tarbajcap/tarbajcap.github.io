@@ -1,5 +1,8 @@
 # CAP - vlastne ucty (Unity Ads cez LevelPlay)
 unity.com, 7972629594552, DIRECT, 96cabb5fbdde37a7
+# Meta Audience Network (bidding cez Unity LevelPlay)
+facebook.com, 1777036556838270, RESELLER, c3e20eee3f780d68
+facebook.com, 1460146919311139, RESELLER, c3e20eee3f780d68
 # Appodeal mediacia
 appodeal.com, 439860, DIRECT
 bidmachine.io,1,DIRECT
