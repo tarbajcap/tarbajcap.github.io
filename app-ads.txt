@@ -4,6 +4,8 @@ unity.com, 7972629594552, DIRECT, 96cabb5fbdde37a7
 # Meta Audience Network (bidding cez Unity LevelPlay)
 facebook.com, 1777036556838270, RESELLER, c3e20eee3f780d68
 facebook.com, 1460146919311139, RESELLER, c3e20eee3f780d68
+# InMobi (bidding cez Unity LevelPlay)
+inmobi.com, 1908d6c1161e46aabcc276b8394ccb7c, DIRECT, 83e75a7ae333ca9d
 # ironSource Ads / Unity LevelPlay (publisher 689407)
 ironsrc.com, 689407, DIRECT
 media.net, 8CUH2L333, RESELLER
